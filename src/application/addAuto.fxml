@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addAutoController">
+   <children>
+      <TextField fx:id="registracija" layoutX="14.0" layoutY="14.0" promptText="Registracija" />
+      <TextField fx:id="model" layoutX="14.0" layoutY="89.0" promptText="Model" />
+      <TextField fx:id="naziv" layoutX="14.0" layoutY="50.0" promptText="Naziv" />
+      <TextField fx:id="vrstaMjenjaca" layoutX="14.0" layoutY="126.0" promptText="Vrsta mjenjača" />
+      <TextField fx:id="godinaProizvodnje" layoutX="14.0" layoutY="167.0" promptText="Godina proizvodnje" />
+      <TextField fx:id="cijenaNaDan" layoutX="14.0" layoutY="207.0" promptText="Cijena na dan" />
+      <TextField fx:id="idOsiguranje" layoutX="14.0" layoutY="245.0" promptText="Id osiguranje" />
+      <TextField fx:id="idKategorija" layoutX="14.0" layoutY="285.0" promptText="Id kategorija" />
+      <TextField fx:id="idServis" layoutX="14.0" layoutY="327.0" promptText="Id servis" />
+   </children>
+</AnchorPane>

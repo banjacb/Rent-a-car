@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.viewAutoController">
+   <children>
+      <Label layoutX="246.0" layoutY="14.0" text="Rent a car">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="92.0" />
+      <Button layoutX="209.0" layoutY="54.0" mnemonicParsing="false" onAction="#btnRezerviziCllick" prefHeight="26.0" prefWidth="161.0" text="Rezervacije" />
+      <ListView fx:id="lista" layoutX="29.0" layoutY="101.0" prefHeight="218.0" prefWidth="531.0" />
+      <Button layoutX="29.0" layoutY="54.0" mnemonicParsing="false" onAction="#radSaKlijentima" prefHeight="26.0" prefWidth="180.0" text="Rad sa klijentima" />
+      <Button fx:id="iznajmi" layoutX="370.0" layoutY="54.0" mnemonicParsing="false" onAction="#btnIznajmi" prefHeight="26.0" prefWidth="189.0" text="Iznajmljivanja" />
+      <Label fx:id="info" layoutX="29.0" layoutY="83.0" prefHeight="18.0" prefWidth="531.0" text="Registracija  Naziv Model Vrsta mjenjaca Godina proizvodnje Cijena dan" />
+      <Button fx:id="dodaj" layoutX="484.0" layoutY="318.0" mnemonicParsing="false" onAction="#dodajAuto" prefHeight="26.0" prefWidth="75.0" text="+add" />
+      <Button fx:id="izbrisi" layoutX="300.0" layoutY="318.0" mnemonicParsing="false" onAction="#izbrisiAuto" prefHeight="26.0" prefWidth="75.0" text="x delete" />
+      <TextField fx:id="textFiledRegistracija" layoutX="29.0" layoutY="318.0" prefHeight="26.0" prefWidth="272.0" promptText="Unesite broj registracije za brisanje " />
+   </children>
+</AnchorPane>
